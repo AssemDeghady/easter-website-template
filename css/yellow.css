@@ -1,0 +1,385 @@
+/***********************/
+/** Table of Contents **/
+/***********************/
+
+/*
+*
+* >> 
+*   1. Generic
+*   2. Header
+*   3. Hero Carousel
+*   4. Services
+*   5. Portfolio
+*   6. Newsletters Subscribtion
+*   7. Pricing Tables
+*   8. Team
+*   9. Testimonials
+*   10. Latest News
+*   11. Contact Us
+*   12. Social Links
+*   13. Footer
+*   14. Media Queries
+* <<
+*/
+
+/**********************/
+/**     Generic      **/
+/**********************/
+html, body{
+  background-color: #f2f2f2;
+}
+
+.wrapper{
+  background-color: #fff;
+}
+
+.highlight{
+  color: #F4E53F;
+}
+
+.section-title::after{
+  background-color: #333;
+}
+
+.section-title .subline{
+  color: #8E8E8E;
+}
+
+/**********************/
+/**    Header        **/
+/**********************/
+header{
+  background-color: transparent;
+}
+
+header .main-nav .navbar-header button,
+header .main-nav .navbar-header button:hover,
+header .main-nav .main-navbar > ul > li > .mask,
+header .main-nav .main-navbar > ul > li.active > a,
+header .main-nav .main-navbar > ul > li > a:hover,
+header .main-nav .main-navbar .dropdown-menu,
+header .main-nav .main-navbar .dropdown-menu a:hover,
+header.affix .main-nav .main-navbar > ul > li.active > a,
+header.affix .main-nav .main-navbar > ul > li > a:hover{
+  color: #F4E53F;
+}
+
+header .main-nav .main-navbar > ul > li > a{
+  color: #fff;
+}
+
+header.affix{
+  background-color: #fff;
+
+  -webkit-box-shadow: 0px 0px 2px 3px #F0F0F0;
+  -moz-box-shadow: 0px 0px 2px 3px #F0F0F0;
+  box-shadow: 0px 0px 2px 3px #F0F0F0;  
+}
+
+header.affix .main-nav .navbar-header button{
+  color: #000;
+}
+
+header.affix .main-nav .main-navbar > ul > li > a{
+  color: #5E5E5E;
+}
+
+/**********************/
+/**    Hero Carousel     **/
+/**********************/
+.hero-carousel{
+  background-image:url("../images/bg/yellow_bg.jpg");  
+}
+
+.hero-carousel .layer{
+  background-color: rgba(0, 0, 0, 0.4);  
+}
+
+.hero-carousel .swiper-slide {
+  background: transparent;
+}
+
+.hero-carousel .headline,
+.hero-carousel .subline,
+.hero-carousel .action-btns .secondary,
+.hero-carousel .action-btns .primary,
+.hero-carousel .swiper-button-next,
+.hero-carousel .swiper-button-prev{
+  color: #fff;
+}
+
+.hero-carousel .swiper-button-next:hover,
+.hero-carousel .swiper-button-prev:hover{
+  color: #F4E53F; 
+}
+
+.hero-carousel .action-btns .primary{
+  background-color: #F4E53F;
+}
+
+.hero-carousel .action-btns .secondary{
+  background-color: #1C1C1C;
+}
+
+/**********************/
+/**    Services     **/
+/**********************/
+.services .service-item img{
+  border-color: transparent;
+}
+
+.services .service-item:hover img,
+.services .service-item:hover a{
+  border-color: #F4E53F;
+}
+
+.services .service-item a{
+  color: #333;  
+}
+
+.services .service-item > p{
+  color: #8E8E8E;
+}
+
+/**********************/
+/**    Portfolio     **/
+/**********************/
+.portfolio .portfolio-item .layer{
+  background-color: rgba(244, 229, 63, 0.8);
+}
+
+.portfolio .portfolio-item .layer .link-icons > a{
+  color: #333;
+  background-color: #ECECEC;
+  border-color: #333;
+}
+
+.portfolio .portfolio-item .layer .link-icons > a:hover{
+  color: #fff;
+  background-color: #F4E53F;
+  border-color: #394F12;
+}
+
+.portfolio .portfolio-item .layer .meta{
+  color: #fff;
+}
+
+/**********************/
+/**    Newsletters Subscribtion     **/
+/**********************/
+.subscribe .layer{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.subscribe .headline,
+.subscribe .subline{
+  color: #fff;
+}
+
+.subscribe form input{
+  color: #333;
+}
+
+.subscribe form input:focus{
+  box-shadow: 2px 2px 3px 3px rgba(244, 229, 63, 0.5);
+}
+
+/**********************/
+/**    Pricing Tables     **/
+/**********************/
+.pricing .price-plan{
+  background-color: #fff;
+}
+
+.pricing .price-plan .plan-title::after{
+  background-color: rgba(244, 229, 63, 0.3);
+}
+
+.pricing .price-plan .price-block{
+  background-color: #5f686f;
+  color: #fff;
+}
+
+.pricing .price-plan .plan-specs > li{
+  border-color: #eee;
+}
+
+.pricing .price-plan .buy-btn{
+  background-color: transparent;
+  color: #F4E53F;
+}
+
+.pricing .price-plan .buy-btn:hover{
+  color: #333;
+}
+
+.pricing .price-plan:hover,
+.pricing .price-plan.vip{
+  box-shadow: 0 20px 20px rgba(72, 78, 85, 0.3);  
+}
+
+.pricing .price-plan:hover .price-block,
+.pricing .price-plan.vip .price-block{
+  background-color: #F4E53F;
+}
+
+.pricing .price-plan:hover .plan-title::after,
+.pricing .price-plan.vip .plan-title::after{
+  background-color: rgba(244, 229, 63, 0.8);
+}
+
+
+/**********************/
+/**    Team     **/
+/**********************/
+.team .team-member .member-info{
+  background-color: #f2f2f2;
+  border-color: #333;
+}
+
+.team .team-member:hover .member-info{
+  color: #F4E53F;
+  background-color: #3e3e3e;
+  border-color: #F4E53F;
+}
+
+/**********************/
+/**    Testimonials     **/
+/**********************/
+.testimonials{
+  background-color: #FFF8DC;
+}
+
+.testimonials .testimonial-content{
+  color: #666;
+}
+
+.testimonials .testimonial-content .author .author-photo{  
+  border-color: #FFEAA5;
+}
+
+.testimonials .testimonial-content .author .author-info > h4{
+  color: #F4E53F;
+}
+
+.testimonials .testimonial-content .author .author-info > h5{
+  color: #333;
+}
+
+.testimonials .testimonial-content .testimonial-text blockquote::before,
+.testimonials .testimonial-content .testimonial-text blockquote::after {
+  color: #DBCC9D;
+}
+
+.testimonials .swiper-pagination-bullet{
+  background-color: #FF0000;
+}
+
+.testimonials .swiper-pagination-bullet.swiper-pagination-bullet-active{
+  background-color: #DBCC9D;
+}
+
+/**********************/
+/**    Latest News     **/
+/**********************/
+.latest-news .post-item{  
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.latest-news .post-item .post-img .post-date{
+  background-color: #F4E53F;
+  color: #fff;  
+}
+
+.latest-news .post-item .post-img .post-date h3 > small{
+  color: #fff;
+}
+
+.latest-news .post-item .post-info h4{
+  color: #F4E53F;
+}
+.latest-news .post-item .post-info p{
+  color: #555;
+}  
+
+.latest-news .post-item .post-meta > li{
+  color: #777;
+}
+
+.latest-news .post-item .read-more{
+  color: #F4E53F;
+  border-color: #F4E53F;
+}
+
+.latest-news .post-item .read-more:hover{
+  background-color: #333;
+  color: #fff;
+}
+
+/**********************/
+/**    Contact Us     **/
+/**********************/
+.contactus{
+  background-color: #FFF8DC;
+}
+
+.contactus .map-container {
+  background-color: #fff;
+  border-color: #ccc; 
+}
+
+.contactus .map-container #map .marker-info-window h4,
+.contactus form label{
+  color: #F4E53F;
+}
+
+.contactus form {
+  background-color: #fff;
+  border-color: #ccc; 
+}
+
+.contactus form button[type="submit"]{
+  background-color: #F4E53F;
+  color: #fff;
+}
+
+.contactus form button[type="submit"]:hover{
+  background-color: #333;
+}
+
+/*************************/
+/**    Social Links     **/
+/*************************/
+.social-eggs{
+  background-image: url("../images/bg/yellow_grass.png");
+}
+
+
+/**********************/
+/**    Footer     **/
+/**********************/
+footer{
+  background-color: #ffe680;
+}
+
+footer p{
+  color: #fff;
+}
+
+/************************/
+/**   Media Queries    **/
+/************************/
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  /* Header */
+  header .main-nav .main-navbar{
+    background-color: #333333;
+  }
+
+  header .main-nav .main-navbar > ul > li > a,
+  header.affix .main-nav .main-navbar > ul > li > a{
+    color: #fff;
+  }
+}
