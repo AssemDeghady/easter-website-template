@@ -4,6 +4,7 @@ this template can be used by a startup, business or company that want to make a 
 
 ### Preview Link: http://deghadysystems.com/easter/
 
+
 ## Key Features
 - Fully Responsive
 - Crossbrowser Compatibility
@@ -11,6 +12,7 @@ this template can be used by a startup, business or company that want to make a 
 - All Assets Included
 - 6 Different Skin Colors
 - Easily Customizable
+
 
 ## Page Sections
 - Hero Carousel
@@ -22,6 +24,7 @@ this template can be used by a startup, business or company that want to make a 
 - Testimonials
 - Contacts
 - Socials
+
 
 ## Credits
 - Pixabay - http://pixabay.com 
@@ -37,7 +40,9 @@ this template can be used by a startup, business or company that want to make a 
 - QueryLoader2 - https://blog.gaya.ninja/articles/queryloader2-preload-your-images-with-ease/
 - OnePageNav - https://github.com/davist11/jQuery-One-Page-Nav
 
+
 ## Imporant Note
 If you intend to use the images included inside the project to have to abide by the licenses and follow them correctly they are all free assets but you will have to add a backlink if you don't have a subscribtion, all licenses can be found in the **Licenses** Folder.
+
 
 For any questions contact email: deghady.systems@gmail.com 
